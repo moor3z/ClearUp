@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ClearUp | Garden Clearance Specialists</title>
+    <meta
+      name="description"
+      content="Garden clearance made simple. From garden waste removal to a full overgrown garden clear-out, ClearUp does the loading and takes the waste away. Request your free quote."
+    />
+    <meta name="theme-color" content="#164B35" />
+    <link rel="icon" type="image/png" href="/brand/favicon.png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <link rel="preload" href="/fonts/outfit-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/outfit-400.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+
+    <!--
+      Static copy of the enquiry form so Netlify Forms can detect it at deploy time.
+      It is hidden and never shown to visitors. Only used when site.enquiry.provider
+      is set to 'netlify' in src/config/site.ts. Field names must match QuoteForm.tsx.
+    -->
+    <form name="enquiry" netlify netlify-honeypot="company" enctype="multipart/form-data" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="postcode" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <select name="service"><option>Garden waste removal</option></select>
+      <textarea name="job"></textarea>
+      <input type="file" name="photos" multiple />
+      <input type="text" name="company" />
+    </form>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
