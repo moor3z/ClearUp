@@ -19,13 +19,15 @@ const base = siteUrl.replace(/\/$/, '')
 const abs = (p) => `${base}${p === '/' ? '/' : `${p}/`}`
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;')
 const today = new Date().toISOString().slice(0, 10)
+// VITE_NOINDEX=true keeps a staging deployment (e.g. the pages.dev address) out of search results.
+const noindexAll = process.env.VITE_NOINDEX === 'true'
 const manifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, 'utf8')) : {}
 const changed = []
 
 function headTags(path, meta, indexable) {
   const { title, description, ogType } = meta
   const tags = [
-    `<meta name="robots" content="${indexable ? 'index, follow, max-snippet:-1, max-image-preview:large' : 'noindex, follow'}" />`,
+    `<meta name="robots" content="${indexable && !noindexAll ? 'index, follow, max-snippet:-1, max-image-preview:large' : 'noindex, follow'}" />`,
     `<meta property="og:site_name" content="${esc(siteName)}" />`,
     `<meta property="og:locale" content="en_GB" />`,
     `<meta property="og:type" content="${ogType}" />`,
@@ -119,7 +121,7 @@ if (base) {
   writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${index}\n</sitemapindex>\n`)
   writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`)
 } else {
-  writeFileSync(join(dist, 'robots.txt'), 'User-agent: *\nAllow: /\n')
+  writeFileSync(join(dist, 'robots.txt'), noindexAll ? 'User-agent: *\nDisallow: /\n' : 'User-agent: *\nAllow: /\n')
 }
 
 // IndexNow key file (the key itself comes from the environment, never the repo)

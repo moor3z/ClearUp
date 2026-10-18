@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-ssr
+dist-preview
+.env
+.env.local
+scripts/.changed-urls.json

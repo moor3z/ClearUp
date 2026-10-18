@@ -55,6 +55,15 @@ The repo is set up so Cloudflare builds it, the same way as Over The Rainbow.
    - Optional: `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`, `INDEXNOW_KEY`
 5. Add the custom domain under Custom domains and, as with OTR, a redirect rule from the bare domain to `www` (or the other way round, but pick one and use it in `VITE_SITE_URL`).
 
+### No domain yet?
+
+Deploy anyway on the free `<project>.pages.dev` address, with two temporary settings:
+
+- Leave `VITE_SITE_URL` unset (otherwise canonicals and the sitemap would point at pages.dev).
+- Set `VITE_NOINDEX` = `true` so the pages.dev copy carries `noindex` and a `Disallow: /` robots.txt. This stops the temporary address being indexed and competing with the real domain later.
+
+When the domain is bought: add it under Custom domains, set `VITE_SITE_URL` to it, delete `VITE_NOINDEX`, and redeploy. Cloudflare then serves the real domain with everything switched on.
+
 Every push to the branch rebuilds and deploys. `public/_headers` is honoured by Cloudflare Pages (same format as Netlify) for caching and security headers. `404.html` is served automatically for unknown paths. If stale CSS ever shows on a phone, set Browser Cache TTL to Respect Existing Headers as on OTR.
 
 ### The quote form on Cloudflare
