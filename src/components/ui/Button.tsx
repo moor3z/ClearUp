@@ -1,7 +1,7 @@
 import { ChevronRight } from 'lucide-react'
 import type { ButtonHTMLAttributes, ReactNode } from 'react'
 
-type Variant = 'primary' | 'secondary' | 'onDark'
+type Variant = 'primary' | 'secondary' | 'onDark' | 'onDarkOutline'
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: Variant
@@ -17,6 +17,7 @@ const variants: Record<Variant, string> = {
   primary: 'bg-forest text-white hover:bg-forest-soft active:bg-forest-deep',
   secondary: 'border-2 border-forest bg-white text-forest hover:bg-sage active:bg-sage-deep',
   onDark: 'bg-leaf text-forest-deep hover:bg-[#74c451] active:bg-[#58a437]',
+  onDarkOutline: 'border-2 border-white/70 bg-transparent text-white hover:bg-white/10 active:bg-white/20',
 }
 
 const sizes = {

@@ -65,6 +65,16 @@ function organization(): Node {
   return node
 }
 
+const heroImageNode = (): Node => ({
+  '@type': 'ImageObject',
+  '@id': id('hero-image'),
+  url: asset('/brand/hero-overgrown-garden-1920.webp'),
+  contentUrl: asset('/brand/hero-overgrown-garden-1920.webp'),
+  width: 1920,
+  height: 1755,
+  caption: 'An overgrown garden wall and doorway before clearance',
+})
+
 const logoNode = (): Node => ({
   '@type': 'ImageObject',
   '@id': id('logo'),
@@ -191,8 +201,10 @@ export function schemaFor(path: string): Node {
     case 'home':
       graph.push(
         ...services.map((s) => serviceNode(s)),
+        heroImageNode(),
         webPage(path, 'WebPage', {
           mainEntity: { '@id': ORG },
+          primaryImageOfPage: { '@id': id('hero-image') },
           breadcrumb: undefined,
           speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#hero-heading', '#quick-answer'] },
         }),

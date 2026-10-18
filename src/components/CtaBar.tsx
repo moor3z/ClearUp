@@ -21,7 +21,7 @@ export default function CtaBar({ size = 'lg', onDark = false, className = '' }: 
       <Button size={size} variant={onDark ? 'onDark' : 'primary'} onClick={() => requestQuote({ focus: 'first' })}>
         {hero.primaryCta}
       </Button>
-      <Button size={size} variant={onDark ? 'onDark' : 'secondary'} onClick={() => requestQuote({ focus: 'photos' })}>
+      <Button size={size} variant={onDark ? 'onDarkOutline' : 'secondary'} onClick={() => requestQuote({ focus: 'photos' })}>
         {hero.secondaryCta}
       </Button>
       {phone && (
