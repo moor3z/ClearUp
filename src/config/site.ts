@@ -22,7 +22,7 @@ export const site = {
   seo: {
     title: 'ClearUp | Garden Clearance Specialists',
     description:
-      'Garden clearance made simple. From garden waste removal to a full overgrown garden clear-out, ClearUp does the loading and takes the waste away. Request your free quote.',
+      'Garden clearance across Chester, Flintshire, Wrexham and the Wirral. Overgrown gardens cut back, loaded and taken away. Request your free quote.',
     /** 1200 x 630 social sharing image, relative to the site root. */
     ogImage: '/brand/og-image.png',
     /** One-paragraph plain-English description of the business for AI assistants and llms.txt. */

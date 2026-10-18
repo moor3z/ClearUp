@@ -129,7 +129,7 @@ export const services: Service[] = [
       'A garden that has been let go over a long tenancy',
     ],
     seoDescription:
-      'End of tenancy garden clearance from ClearUp for tenants, landlords and letting agents. Rental gardens cut back, weeded, cleared of garden waste and left tidy for check-out. Request a free quote.',
+      'End of tenancy garden clearance for tenants, landlords and agents. Rental gardens cut back, weeded and left tidy for check-out. Free quotes from ClearUp.',
     faqs: [
       {
         q: 'Can you work to a check-out date?',

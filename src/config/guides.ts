@@ -163,7 +163,7 @@ export const guides: Guide[] = [
     title: 'How to dispose of garden waste',
     seoTitle: 'How to Dispose of Garden Waste in the UK | ClearUp',
     description:
-      'The ways to get rid of garden waste in the UK: council garden bins, recycling centres, composting and collection services, and what to check before paying someone to take it.',
+      'Council bins, recycling centres, composting or a collection service: how to get rid of garden waste, and what to check before paying someone to take it.',
     datePublished: '2026-09-26',
     dateModified: '2026-09-26',
     answer:
@@ -209,7 +209,7 @@ export const guides: Guide[] = [
     title: 'Can you remove soil and turf?',
     seoTitle: 'Soil and Turf Removal as Part of Garden Clearance | ClearUp',
     description:
-      'Whether soil, turf and rubble can be removed as part of a garden clearance, why they are quoted differently from green waste, and how to describe them in your quote request.',
+      'Soil, turf and rubble can be removed with a garden clearance. Why they are quoted by weight rather than volume, and how to describe them for an accurate quote.',
     datePublished: '2026-09-26',
     dateModified: '2026-09-26',
     answer:

@@ -1,4 +1,4 @@
-import { areas, findArea, listPlaces } from '../config/areas'
+import { areas, findArea } from '../config/areas'
 import { areaPage, notFound } from '../config/content'
 import { findGuide, guides } from '../config/guides'
 import { aboutPage, areasHub, contactPage, guidesHub, howItWorksPage, pricingPage, projectsHub, reviewsPage, servicesHub } from '../config/pages'
@@ -106,7 +106,7 @@ export function pageMeta(path: string): PageMeta {
     case 'serviceArea':
       return web(
         `${m.service.name} ${m.area.name} | ${site.name}`,
-        `${m.service.name} in ${m.area.name}, ${m.area.region}, covering ${listPlaces(m.area)}. ${m.service.summary} Loading included. Request a free quote from ${site.name}.`,
+        `${m.service.name} in ${m.area.name} and ${m.area.places.slice(0, 3).join(', ')}. Loading and disposal included. Free quotes from ${site.name}.`,
         'areas',
       )
     case 'servicesHub':
@@ -116,7 +116,7 @@ export function pageMeta(path: string): PageMeta {
     case 'area':
       return web(
         m.area.seoTitle ?? `${areaPage.headingPrefix} ${m.area.name} | ${site.name}`,
-        m.area.metaDescription ?? `${m.area.intro} Loading included and waste taken away. Request a free quote from ${site.name}.`,
+        m.area.metaDescription ?? `Garden clearance, green waste removal and shed clearance in ${m.area.name}, covering ${m.area.places.slice(0, 3).join(', ')}. Loading included. Free quotes from ${site.name}.`,
         'areas',
       )
     case 'howItWorks':

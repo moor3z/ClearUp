@@ -72,7 +72,7 @@ function page(path, indexable = true) {
   const head = [`<title>${esc(meta.title)}</title>`, headTags(path, meta, indexable), ...preloads].join('\n    ')
   return template
     .replace(/<title>[^<]*<\/title>/, head)
-    .replace(/(<meta name="description" content=")[^"]*(")/, `$1${esc(meta.description)}$2`)
+    .replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/>/, `<meta name="description" content="${esc(meta.description)}" />`)
     .replace('<div id="root">', `<div id="root" data-route="${path}">`)
     .replace('<!--app-html-->', html)
 }

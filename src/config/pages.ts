@@ -81,7 +81,7 @@ export const pricingPage = {
 export const aboutPage = {
   title: 'About ClearUp',
   seoTitle: 'About ClearUp | Garden Clearance Specialists',
-  description: 'Who ClearUp is, what the business does and where it works: garden clearance and green waste removal across Chester, Cheshire, Flintshire, Wrexham, Denbighshire and the Wirral.',
+  description: 'Who ClearUp is and where it works: garden clearance and green waste removal across Chester, Flintshire, Wrexham, Denbighshire and the Wirral.',
   answer:
     'ClearUp is a garden clearance business serving Chester, Cheshire, Flintshire, Wrexham, Denbighshire and the Wirral. The team clears overgrown gardens, removes green waste, dismantles sheds, clears sites and land, and prepares rental gardens at the end of a tenancy. Every job includes loading and removal of the waste.',
   whatHeading: 'What we do',
@@ -108,7 +108,7 @@ export const contactPage = {
 export const servicesHub = {
   title: 'Garden clearance services',
   seoTitle: 'Garden Clearance Services | ClearUp',
-  description: 'The five services ClearUp offers: garden clearance, green waste removal, end of tenancy garden clearance, site and land clearance, and shed clearance and dismantling.',
+  description: 'ClearUp services: garden clearance, green waste removal, end of tenancy garden clearance, site and land clearance, shed clearance and dismantling.',
   intro: 'Everything we do is outdoors: gardens, green waste, sheds, plots and land. Choose a service for details, or go straight to the quote form.',
 }
 
