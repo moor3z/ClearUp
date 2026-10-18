@@ -21,7 +21,7 @@ export default function Hero() {
         decoding="async"
         className="absolute inset-0 -z-20 size-full object-cover object-[center_40%]"
       />
-      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-forest-deep/40" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-forest-deep/50" />
 
       <div className="container-site grid items-center gap-10 py-10 sm:py-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,34rem)] lg:gap-14 lg:py-20 xl:grid-cols-[minmax(0,1fr)_minmax(0,36rem)]">
         <div className="max-w-2xl">
