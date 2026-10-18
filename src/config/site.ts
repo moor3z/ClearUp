@@ -17,7 +17,7 @@ export const site = {
    * links, Open Graph images, sitemap.xml, llms.txt and absolute schema IDs.
    * Set it here or pass VITE_SITE_URL at build time.
    */
-  url: (import.meta.env.VITE_SITE_URL as string | undefined) ?? '',
+  url: (import.meta.env.VITE_SITE_URL as string | undefined) ?? 'https://www.clearupgardenclearances.co.uk',
 
   seo: {
     title: 'ClearUp | Garden Clearance Specialists',

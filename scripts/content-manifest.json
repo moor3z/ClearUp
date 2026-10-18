@@ -1,270 +1,270 @@
 {
   "/": {
-    "hash": "997945c316359698",
+    "hash": "2efc80ff5cd18929",
     "lastmod": "2026-10-18"
   },
   "/services": {
-    "hash": "e7f5b4a3285b59be",
+    "hash": "1db8dad25a846bec",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance": {
-    "hash": "6c8f4a6c8d6e5ce4",
+    "hash": "5155b10ff7d29304",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal": {
-    "hash": "16dbce5e0efd3ef2",
+    "hash": "48a318665e98d3ae",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance": {
-    "hash": "da72ea50feed0c71",
+    "hash": "179103169a653f2b",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance": {
-    "hash": "12b65c2404e0ac37",
+    "hash": "026658fb8e2ba42b",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling": {
-    "hash": "49c90b4ddd9132b1",
+    "hash": "1728695ee648cfbd",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/chester": {
-    "hash": "65d77a4befae681e",
+    "hash": "30e4f44a83166348",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/deeside": {
-    "hash": "5a3458311df13b06",
+    "hash": "6b3e0a36d6a483f0",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/denbighshire": {
-    "hash": "26b5a8b4686297d0",
+    "hash": "6865b43712b9164c",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/ellesmere-port": {
-    "hash": "ced67e783c89083d",
+    "hash": "c88f34f9d539e234",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/flintshire": {
-    "hash": "23221095bbb691f9",
+    "hash": "2378c3452e584645",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/mold": {
-    "hash": "b34c8a9a0e40c034",
+    "hash": "37b656784f8fbcf5",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/wirral": {
-    "hash": "14276a10171d1bc1",
+    "hash": "3bd619d7fdfa7f3f",
     "lastmod": "2026-10-18"
   },
   "/garden-clearance/wrexham": {
-    "hash": "13af84de1f6a188d",
+    "hash": "8c426c3cc61f5cbd",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/chester": {
-    "hash": "4369d5534624e597",
+    "hash": "593f65f297700051",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/deeside": {
-    "hash": "1001749ad50932e5",
+    "hash": "e115d893d1cd9337",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/denbighshire": {
-    "hash": "3dfb237e6708c760",
+    "hash": "7d14a8b0bf5d75bf",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/ellesmere-port": {
-    "hash": "378e6b381178a0ab",
+    "hash": "a8b11bd56e6bfbd7",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/flintshire": {
-    "hash": "5035f1400bd55b44",
+    "hash": "ed4c46104076f756",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/mold": {
-    "hash": "bbd6d90730ed8d27",
+    "hash": "52b0991be1be0442",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/wirral": {
-    "hash": "1479766e478e5d94",
+    "hash": "34afc7c17c64de7e",
     "lastmod": "2026-10-18"
   },
   "/green-waste-removal/wrexham": {
-    "hash": "657b0bd3c0137fdc",
+    "hash": "ea367a8757b2c987",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/chester": {
-    "hash": "26b79ab1714fb8d0",
+    "hash": "089ec95e3c265f5b",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/deeside": {
-    "hash": "937077992451a18b",
+    "hash": "cab2454d78540180",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/denbighshire": {
-    "hash": "c76c5e30dd1fbc2b",
+    "hash": "4ecf346e80f033c7",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/ellesmere-port": {
-    "hash": "314a803f90bfcfaf",
+    "hash": "a39de927e58d0f0e",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/flintshire": {
-    "hash": "f9404610d1fe20f9",
+    "hash": "642e9d8400085bf7",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/mold": {
-    "hash": "a9eba4dda93bfb00",
+    "hash": "8bae8b995b68ce5a",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/wirral": {
-    "hash": "3e172f1d2cadb990",
+    "hash": "47ac04f171f5ea4b",
     "lastmod": "2026-10-18"
   },
   "/end-of-tenancy-garden-clearance/wrexham": {
-    "hash": "19a774952a84e26c",
+    "hash": "46d75b630e255003",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/chester": {
-    "hash": "0507059535e7a717",
+    "hash": "3af1d68a152dadf9",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/deeside": {
-    "hash": "9d12ed7162fe6233",
+    "hash": "3ecf01aff627ac84",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/denbighshire": {
-    "hash": "772ec9eb3ee5385f",
+    "hash": "a821f9f4c382b341",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/ellesmere-port": {
-    "hash": "10bd390bf7a1949d",
+    "hash": "23834be861ddade1",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/flintshire": {
-    "hash": "94a3f780a6a7a9b3",
+    "hash": "217bba6d039113c8",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/mold": {
-    "hash": "1b1e0fccb34ebc84",
+    "hash": "f447fdf80d1ef855",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/wirral": {
-    "hash": "0e35a5501ed04378",
+    "hash": "4de90d2709ec2497",
     "lastmod": "2026-10-18"
   },
   "/site-and-land-clearance/wrexham": {
-    "hash": "43c3dba0fa9d0313",
+    "hash": "199e7de19717bd52",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/chester": {
-    "hash": "d6219d386fd80918",
+    "hash": "2a2bbb6b9badef45",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/deeside": {
-    "hash": "e1aa7d01f80bc4ac",
+    "hash": "f65d825c7122b689",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/denbighshire": {
-    "hash": "77c72a7e228967b4",
+    "hash": "00bc368aea740cfa",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/ellesmere-port": {
-    "hash": "8fd4025bfeacad27",
+    "hash": "7790cceeafa40e63",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/flintshire": {
-    "hash": "5cbbfccc566cddd3",
+    "hash": "ad1d38a0c6432bf2",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/mold": {
-    "hash": "ad6f9962d796bd69",
+    "hash": "9a2928d6f9809a26",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/wirral": {
-    "hash": "77a182b84e23ca8f",
+    "hash": "55745e6f3bb7e3f8",
     "lastmod": "2026-10-18"
   },
   "/shed-clearance-and-dismantling/wrexham": {
-    "hash": "71635c89ec9b5469",
+    "hash": "278a4c120084caa3",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover": {
-    "hash": "a9dbbcf13ae6d762",
+    "hash": "dcba7ce0e6417d34",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/chester": {
-    "hash": "f60198ed4ce787ed",
+    "hash": "aa39e641defd2295",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/deeside": {
-    "hash": "326979a1b9ef54a3",
+    "hash": "ae1c259210d4d722",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/denbighshire": {
-    "hash": "4c43a3543cc4deee",
+    "hash": "1b06c7c87f0c8ca2",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/ellesmere-port": {
-    "hash": "5133735087a3a0b4",
+    "hash": "934adf9bc518c7f8",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/flintshire": {
-    "hash": "ebef622265c59672",
+    "hash": "64c2348c9215f016",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/mold": {
-    "hash": "d7b7dd0ad57e93b5",
+    "hash": "40837c742d2c2efd",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/wirral": {
-    "hash": "d6b0f95527224a01",
+    "hash": "f856a7e973e72fac",
     "lastmod": "2026-10-18"
   },
   "/areas-we-cover/wrexham": {
-    "hash": "cd0ecd912f89e977",
+    "hash": "2653208de87f81ae",
     "lastmod": "2026-10-18"
   },
   "/how-it-works": {
-    "hash": "f7a8f5fc930d1c4a",
+    "hash": "7867474188701796",
     "lastmod": "2026-10-18"
   },
   "/pricing": {
-    "hash": "d98b3fa2dc3d015b",
+    "hash": "0ab62b210aeeb6e1",
     "lastmod": "2026-10-18"
   },
   "/about": {
-    "hash": "7be1d9797a97fa39",
+    "hash": "644532df0397bd5d",
     "lastmod": "2026-10-18"
   },
   "/contact": {
-    "hash": "0634fb400f9ffbbc",
+    "hash": "906b7ed37764cd44",
     "lastmod": "2026-10-18"
   },
   "/guides": {
-    "hash": "5135b1a78f032a1d",
+    "hash": "80e2dc6361dfabab",
     "lastmod": "2026-10-18"
   },
   "/guides/what-does-garden-clearance-include": {
-    "hash": "9b0a23e8a3f18f4e",
+    "hash": "4d0536c69784866d",
     "lastmod": "2026-10-18"
   },
   "/guides/garden-clearance-vs-skip-hire": {
-    "hash": "d59a9c5499eea3b2",
+    "hash": "a1d0abf753cbf770",
     "lastmod": "2026-10-18"
   },
   "/guides/how-to-dispose-of-garden-waste": {
-    "hash": "8c00fb742a688faa",
+    "hash": "35ec44596e97dc4f",
     "lastmod": "2026-10-18"
   },
   "/guides/can-you-remove-soil-and-turf": {
-    "hash": "8c70ed8822255354",
+    "hash": "9c74e5c0d005ddf0",
     "lastmod": "2026-10-18"
   },
   "/guides/how-to-prepare-for-a-garden-clearance": {
-    "hash": "a5ddcea7fbc1e4f9",
+    "hash": "5f4af5662eb920a4",
     "lastmod": "2026-10-18"
   },
   "/404": {
-    "hash": "67708d91e0f87e61",
+    "hash": "3d85f807f159c20d",
     "lastmod": "2026-10-18"
   }
 }
